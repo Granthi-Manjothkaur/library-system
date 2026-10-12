@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "https://library-system-ztpj.onrender.com/api";
 const app = document.getElementById("app");
 let currentUser = JSON.parse(localStorage.getItem("libraryUser") || "null");
 
